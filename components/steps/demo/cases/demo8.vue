@@ -52,7 +52,8 @@
   </div>
 </template>
 
-<script>import {Steps, Amount, Icon} from 'mand-mobile'
+<script>
+import {Steps, Amount, Icon} from 'mand-mobile'
 
 export default {
   name: 'steps-demo',
@@ -83,13 +84,14 @@ export default {
         },
         {
           name: '还款成功',
-          amount: '600.5',
+          amount: '600.',
         },
       ],
     }
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-steps-8
